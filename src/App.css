@@ -1,7 +1,16 @@
 .App {
   text-align: left;
 }
+.resultStyle{
+  border: solid black 3px;
+  padding: 5px;
+  height: 3rem;
+}
 
+.boxed{
+  padding:10px;
+  border: solid black 3px;
+}
 
 
 
