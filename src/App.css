@@ -11,7 +11,14 @@
   padding:10px;
   border: solid black 3px;
 }
-
-
+#divCmToInches{
+  display: none;
+}
+#ftInchesToCm{
+  display: none;
+}
+#InchesToCm{
+  display: none;
+}
 
 

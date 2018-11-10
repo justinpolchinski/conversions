@@ -59,6 +59,7 @@ class FeetInputs extends Component{
     render (){
         return (
             <div className="boxed mt-5 row">
+            
             <form  className=" font-weight-bold col-lg-4">
                 <span >Input Length Feet: </span><br/>
                 <input  type="text"id={this.props.um +"fL"} value={this.props.value}  um={this.props.um+"L"} ref={this.input} onChange={this.handleChange}></input>
