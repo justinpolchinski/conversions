@@ -35,7 +35,7 @@ class HideButton extends Component{
         
     }
     render() {
-        return <button  id={this.props.btnName} onClick={this.handleClick}>{this.props.btnName}</button>;
+        return <button className="w-100 m-1" id={this.props.btnName} onClick={this.handleClick}>{this.props.btnName}</button>;
     }
     }
 export default HideButton;
